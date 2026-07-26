@@ -32,7 +32,65 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  padding: 6px 20px;
+}
+
+.nav-logo {
+  height: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.nav-links li {
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.size {
+  width: 100%;
+  height: 300px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousal-image {
+  height: 75vh;
+}
+.footer-links li a{
+  text-align: left;
+  color: rgb(35, 35, 35);
+}
+.form-control {
+    background: transparent !important;
+    color: white !important;
+}
+
+.form-control::placeholder {
+    color: #bdbdbd !important;
+    opacity: 1;
+}
+
+.form-control:focus {
+    background: transparent !important;
+    color: white !important;
+    border-color: #f5f1eb !important;
+    box-shadow: none !important;
 }
